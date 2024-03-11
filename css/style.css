@@ -1,0 +1,185 @@
+body {
+    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+}
+
+.principal{
+    color: #0acacf;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+}
+.principal h2{
+    font-family: "Montserrat", sans-serif;;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.principal h4{
+    font-family: "Montserrat", sans-serif;;
+    font-weight: 500;
+    font-style: italic;
+    color: #08868a;
+}
+
+.principal h3{
+    font-family: "Montserrat", sans-serif;;
+    font-weight: 750;   
+}
+
+.principal p{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    color: #d9e7ed;
+}
+
+.left-side{
+    padding-top: 35px !important;
+    
+}
+
+.class-person{
+    background-color: #0ac8cf2b ;
+    max-width: 28rem;
+    font-size: 15px;
+}
+
+.class-person p{
+    color: #0acacf;
+    font-weight: 600;
+}
+
+.sections h4{
+    
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    color: #0acacf;
+}
+
+.section-links a{
+    width: 28rem;
+    color: #d9e7ed;
+    background: none;
+    transition: 0.4s;
+}
+
+.section-links a:hover{
+    color: #0acacf;
+    background-color: #0ac8cf2b;
+    border-radius: 5px;
+}
+
+.section-links a.active {
+    color: #0acacf;
+    background-color: #0ac8cf2b;
+    border-radius: 5px;
+}
+
+.contact-links a{
+
+    color: #0acacf !important;
+    transition: 0.4s;
+}
+
+.contact-links a:hover{
+
+    color: #046467 !important;
+}
+
+.project-card{
+    background: none;
+    border-color: #0acacf !important;
+    max-height: 400px;
+}
+
+.project-card i{
+    background: none;
+    color: #0acacf;
+    transition: 0.2s;
+    
+}
+
+.project-card i:hover{
+    background: none;
+    color: #046467 !important;
+}
+
+.project-card img{
+    border-style: none;
+   
+}
+
+
+.list-group {
+    position: sticky;
+    top: 10px;
+}
+
+/* body {
+
+    background: rgb(13, 9, 89);
+    background: linear-gradient(144deg, rgba(13, 9, 89, 1) 20%, rgba(7, 7, 158, 1) 60%, rgba(18, 150, 177, 1) 100%);
+    background-repeat: no-repeat;
+} */
+
+
+.texto-menor {
+    font-size: smaller;
+}
+
+.text-white {
+    color: whitesmoke;
+}
+
+.text-dark {
+    color: black;
+}
+
+@media screen and (max-width: 576px) {
+
+    .class-person{
+        font-size: 10px;
+    }
+
+    .section-links{
+        display: none;
+    }
+
+    .contact-links{
+        text-align: center;
+    }
+
+    .sobre-mim{
+        padding: 0 !important;
+        
+    }
+
+    .projetos{
+        padding: 0 !important;
+        margin-top: 75px !important;
+    }
+
+    .projetos img{
+
+        height: 150px;
+        padding-left: 16px;
+        padding-bottom: 8px;
+
+    }
+
+    .project-card{
+
+        padding-left: 7px !important;
+        max-width: 600px;
+    }
+
+    .experiencias-anteriores{
+        padding: 0 !important;
+        margin-top: 75px !important;
+    }
+
+    
+
+    
+
+    
+}
