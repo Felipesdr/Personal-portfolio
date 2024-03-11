@@ -78,6 +78,19 @@ body {
     border-radius: 5px;
 }
 
+.skills-section{
+    border-left: 1px solid #046467;
+    padding-left: 12px;
+    border-left-style: dotted;
+}
+
+.skills-section h5{
+    color: #08868a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
 .contact-links a{
 
     color: #0acacf !important;
@@ -138,6 +151,13 @@ body {
     color: black;
 }
 
+footer{
+    font-family: "Quicksand", sans-serif;
+    color: #0acacf;
+    padding-top: 30px;
+
+}
+
 @media screen and (max-width: 576px) {
 
     .class-person{
@@ -181,9 +201,17 @@ body {
         margin-top: 75px !important;
     }
 
+    .skills{
+        padding: 0 !important;
+        margin-top: 75px !important;
+    }
     
+    .skills-section{
+        margin-top: 45px;
+    }
 
-    
-
-    
+    .blank-space{
+        display: none;
+    }
+ 
 }
