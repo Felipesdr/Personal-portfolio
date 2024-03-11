@@ -1,72 +1,79 @@
 body {
-    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    background-image: radial-gradient(circle 815px at 23.4% -21.8%, rgba(9, 29, 85, 1) 0.2%, rgba(0, 0, 0, 1) 100.2%);
 }
 
-.principal{
+.principal {
     color: #0acacf;
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
-    margin-bottom: 0!important;
-    padding-bottom: 0!important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
 }
-.principal h2{
-    font-family: "Montserrat", sans-serif;;
+
+.principal h2 {
+    font-family: "Montserrat", sans-serif;
+    ;
     font-weight: 500;
     font-style: normal;
 }
 
-.principal h4{
-    font-family: "Montserrat", sans-serif;;
+.principal h4 {
+    font-family: "Montserrat", sans-serif;
+    ;
     font-weight: 500;
     font-style: italic;
     color: #08868a;
 }
 
-.principal h3{
-    font-family: "Montserrat", sans-serif;;
-    font-weight: 600;   
+.principal h3 {
+    font-family: "Montserrat", sans-serif;
+    ;
+    font-weight: 600;
 }
 
-.principal p{
+.principal p {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: 250;
     color: #d9e7ed;
 }
 
-.left-side{
-    margin-bottom: 0!important;
-}
-.left-content{
-    padding-top: 90px;
+.left-side {
+    margin-bottom: 0 !important;
 }
 
-.class-person{
-    background-color: #0ac8cf2b ;
+.left-content {
+    padding-top: 90px;
+    max-width: 31em;
+}
+
+
+.class-person {
+    background-color: #0ac8cf2b;
     max-width: 28rem;
     font-size: 15px;
 }
 
-.class-person p{
+.class-person p {
     color: #0acacf;
     font-weight: 600;
 }
 
-.sections h4{
-    
+.sections h4 {
+
     font-family: "Montserrat", sans-serif;
     font-weight: 100;
     color: #0acacf;
 }
 
-.section-links a{
+.section-links a {
     width: 28rem;
     color: #d9e7ed;
     background: none;
     transition: 0.4s;
 }
 
-.section-links a:hover{
+.section-links a:hover {
     color: #0acacf;
     background-color: #0ac8cf2b;
     border-radius: 5px;
@@ -78,51 +85,51 @@ body {
     border-radius: 5px;
 }
 
-.skills-section{
+.skills-section {
     border-left: 1px solid #046467;
     padding-left: 12px;
     border-left-style: dotted;
 }
 
-.skills-section h5{
+.skills-section h5 {
     color: #08868a;
     text-align: center;
     margin-bottom: 20px;
 }
 
 
-.contact-links a{
+.contact-links a {
 
     color: #0acacf !important;
     transition: 0.4s;
 }
 
-.contact-links a:hover{
+.contact-links a:hover {
 
     color: #046467 !important;
 }
 
-.project-card{
+.project-card {
     background: none;
     border-color: #0acacf !important;
     max-height: 400px;
 }
 
-.project-card i{
+.project-card i {
     background: none;
     color: #0acacf;
     transition: 0.2s;
-    
+
 }
 
-.project-card i:hover{
+.project-card i:hover {
     background: none;
     color: #046467 !important;
 }
 
-.project-card img{
+.project-card img {
     border-style: none;
-   
+
 }
 
 
@@ -151,7 +158,7 @@ body {
     color: black;
 }
 
-footer{
+footer {
     font-family: "Quicksand", sans-serif;
     color: #0acacf;
     padding-top: 30px;
@@ -160,29 +167,29 @@ footer{
 
 @media screen and (max-width: 576px) {
 
-    .class-person{
+    .class-person {
         font-size: 10px;
     }
 
-    .section-links{
+    .section-links {
         display: none;
     }
 
-    .contact-links{
+    .contact-links {
         text-align: center;
     }
 
-    .sobre-mim{
+    .sobre-mim {
         padding: 0 !important;
-        
+
     }
 
-    .projetos{
+    .projetos {
         padding: 0 !important;
         margin-top: 75px !important;
     }
 
-    .projetos img{
+    .projetos img {
 
         height: 150px;
         padding-left: 16px;
@@ -190,28 +197,28 @@ footer{
 
     }
 
-    .project-card{
+    .project-card {
 
         padding-left: 7px !important;
         max-width: 600px;
     }
 
-    .experiencias-anteriores{
+    .experiencias-anteriores {
         padding: 0 !important;
         margin-top: 75px !important;
     }
 
-    .skills{
+    .skills {
         padding: 0 !important;
         margin-top: 75px !important;
     }
-    
-    .skills-section{
+
+    .skills-section {
         margin-top: 45px;
     }
 
-    .blank-space{
+    .blank-space {
         display: none;
     }
- 
+
 }
