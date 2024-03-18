@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Felipe's Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,46 +29,58 @@
 <body>
 
     <div class="row container mx-auto principal">
+
         <div class="col-sm-6 left-side">
             <div class="list-group left-content">
-                <h2>Felipe Santana de Rose</h2>
-                <h4 class="mt-4">Web Developer</h4>
-                <p>A person who discovered late (but not too late) that loves making things for the internet.
-                </p>
-                <div class="card my-4 class-person">
-                    <div class="card-body p-3 class-person typing-animation">
-                        <p class="card-text my-1 text-content ">1 &#160 public class Person{</p>
+
+                <div class="personal-info">
+                    <h2>Felipe Santana de Rose</h2>
+                    <h4 class="mt-4">Web Developer</h4>
+                    <p>A person who discovered late (but not too late) that loves making things for the internet.</p>
+                </div>
+
+                <div class="card class-person my-3 ">
+                    <div class="card-body p-3 constructor">
+                        <p class="card-text my-1 text-content ">1 &#160 public class <span
+                                class="class-person-emphasis">Person</span>{</p>
                         <p class="card-text my-1 text-content ">2 &#160 &#160 &#160 &#160 &#160 public Person() {</p>
                         <p class="card-text my-1 text-content ">3 &#160 &#160 &#160 &#160 &#160 &#160 &#160 this.name =
-                            "Felipe
-                            Santana de Rose";</p>
+                            <span class="class-person-emphasis">"Felipe
+                                Santana de Rose"</span>;
+                        </p>
                         <p class="card-text my-1 text-content ">4 &#160 &#160 &#160 &#160 &#160 &#160 &#160
                             this.profession =
-                            ["Developer", "Psychologist"];</p>
+                            [<span class="class-person-emphasis">"Developer"</span>, "Psychologist"];</p>
                         <p class="card-text my-1 text-content ">5 &#160 &#160 &#160 }</p>
                         <p class="card-text my-1 text-content ">6 &#160 }</p>
-
 
                     </div>
                 </div>
 
-                <div class="section-links">
-                    <a class="list-group-item list-group-item-action border border-0" href="#item-1"
-                        onclick="activateLink(this)"><i class="bi bi-arrow-right"></i> &#160 About</a>
-                    <a class="list-group-item list-group-item-action border border-0" href="#item-2"
-                        onclick="activateLink(this)"><i class="bi bi-arrow-right"></i> &#160 Skills</a>
-                    <a class="list-group-item list-group-item-action border border-0" href="#item-3"
-                        onclick="activateLink(this)"><i class="bi bi-arrow-right"></i> &#160 Projects</a>
-                    <a class="list-group-item list-group-item-action border border-0" href="#item-4"
-                        onclick="activateLink(this)"><i class="bi bi-arrow-right"></i> &#160 Previous Experiencie</a>
-                </div>
+                <div class="left-links">
+                    <div class="section-links">
+                        <a class="list-group-item list-group-item-action border border-0" href="#item-1"
+                            onclick="activateLink(this)"><i class="bi bi-arrow-right"></i> &#160 About</a>
+                        <a class="list-group-item list-group-item-action border border-0" href="#item-2"
+                            onclick="activateLink(this)"><i class="bi bi-arrow-right"></i> &#160 Skills</a>
+                        <a class="list-group-item list-group-item-action border border-0" href="#item-3"
+                            onclick="activateLink(this)"><i class="bi bi-arrow-right"></i> &#160 Projects</a>
+                        <a class="list-group-item list-group-item-action border border-0" href="#item-4"
+                            onclick="activateLink(this)"><i class="bi bi-arrow-right"></i> &#160 Previous
+                            Experiencie</a>
+                    </div>
 
 
-                <div class="py-4 contact-links justify">
-                    <a href="https://github.com/Felipesdr" target="_blank"><i class="bi bi-github fs-1 me-5"></i></a>
-                    <a href="https://mail.google.com/mail/?view=cm&to=felipederose@gmail.com" target="_blank"><i class="bi bi-envelope-fill fs-1 me-5"></i></a>
-                    <a href="https://wa.me/+5516992455700" target="_blank"><i class="bi bi-whatsapp fs-1 me-5 "></i></a>
-                    <a href="https://www.linkedin.com/in/felipe-santana-de-rose-296b5027a/" target="_blank" ><i class="bi bi-linkedin fs-1 "></i></a>
+                    <div class="py-3 contact-links justify">
+                        <a href="https://github.com/Felipesdr" target="_blank"><i
+                                class="contact-link bi bi-github fs-1 me-5"></i></a>
+                        <a href="https://mail.google.com/mail/?view=cm&to=felipederose@gmail.com" target="_blank"><i
+                                class="contact-link bi bi-envelope-fill fs-1 me-5"></i></a>
+                        <a href="https://wa.me/+5516992455700" target="_blank"><i
+                                class="contact-link bi bi-whatsapp fs-1 me-5 "></i></a>
+                        <a href="https://www.linkedin.com/in/felipe-santana-de-rose-296b5027a/" target="_blank"><i
+                                class="contact-link bi bi-linkedin fs-1 "></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -80,39 +91,71 @@
                     <h3 id="item-1">About</h3>
                     <br>
                     <p class="text-justify">
-                        My name is Felipe, a web developer. After a 6-year career in psychology, i am now embarking on an exciting journey of transitioning into the world of web development, with a specialized focus on back-end. With a solid foundation in multidisciplinary team work comunication and managing pressure in crisis situations, acquired in treating of neurodivergent people and high-risk wards, I am committed to applying these skills in my new field of activity.
+                        My name is Felipe, a <span class="text-green">web developer</span>. After a <span class="text-green">6-year career in psychology</span>, i am now embarking on
+                        an exciting journey of <span>transitioning</span> into the world of web development, with a specialized focus
+                        on <span class="text-green">back-end</span>. With a solid foundation in multidisciplinary team work comunication and managing
+                        <span class = "text-green">pressure</span> in crisis situations, acquired in treating of neurodivergent people and high-risk
+                        wards, I am committed to applying these skills in my new field of activity.
                     </p>
 
-                    <p class="text-justify">Currently, im dedicating my time and energy to my degree in Systems Analysis and Development, seeking to improve my skills and knowledge to become a highly qualified software developer. I am excited to explore new opportunities and contribute to innovative projects in the field of technology.</p>
-
+                    <p class="text-justify">Currently, im dedicating my time and energy to my <span class = "text-green">degree</span> in <span class = "text-green">Systems Analysis
+                        and Development</span>, seeking to improve my skills and knowledge to become a highly qualified
+                        software developer. I am excited to explore <span class = "text-green">new opportunities</span> and contribute to innovative
+                        projects in the field of technology.</p>
                 </div>
 
-                <div class="container p-5 mt-5  h-50 skills">
+                <div class="container p-5 mt-2  h-50 skills">
                     <h3 id="item-2">Skills</h3>
                     <br>
                     <div class="row">
                         <div class="col-md-4 skills-section">
                             <h5>Languages</h5>
-                            <p>Java</p>
-                            <p>PHP</p>
-                            <p>Javascript</p>
-                            <p>HTML</p>
-                            <p>CSS</p>
-                            <p>SQL</p>
+                            <div class="d-flex">
+                                <p>Java</p>
+                                <i class="fa-brands fa-java fs-5 ms-auto pe-3 text-green"></i>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <p>CSS</p>
+                                <i class="fa-brands fa-css3-alt fs-5 ms-auto pe-3 text-green"></i>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <p>SQL</p>
+                                <i class="fa-solid fa-database fs-5 ms-auto pe-3 text-green"></i>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <p>Javascript</p>
+                                <i class="fa-brands fa-js fs-5 ms-auto pe-3 text-green"></i>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <p>HTML</p>
+                                <i class="fa-brands fa-html5 fs-5 ms-auto pe-3 text-green"></i>
+                            </div>
                         </div>
                         <div class="col-md-4 skills-section">
                             <h5>Frameworks</h5>
-                            <p>Spring boot</p>
-                            <p>Laravel</p>
-                            <p> <span class="blank-space"><br></span></p>
-                            <p> <span class="blank-space"><br></span></p>
-                            <p>Bootstrap</p>
-                            <p>JPA/Hibernate</p>
+                            <div class="d-flex mt-2">
+                                <p>Spring boot</p>
+                                <i class="fa-solid fa-leaf fs-5 ms-auto pe-3 text-green"></i>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <p>Bootstrap</p>
+                                <i class="fa-brands fa-bootstrap fs-5 ms-auto pe-3 text-green"></i>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <p>SQL</p>
+                                <i class="fa-solid fa-database fs-5 ms-auto pe-3 text-green"></i>
+                            </div>
                         </div>
                         <div class="col-md-4 skills-section">
                             <h5>Tools</h5>
-                            <p>Git/Github</p>
-                            <p>Asana/Trelo</p>
+                            <div class="d-flex mt-2">
+                                <p>Git/GitHub</p>
+                                <i class="fa-brands fa-github fs-5 ms-auto pe-3 text-green"></i>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <p>Asana/Trelo</p>
+                                <i class="fa-brands fa-trello fs-5 ms-auto pe-3 text-green"></i>
+                            </div>
                         </div>
                     </div>
 
@@ -134,7 +177,9 @@
                                         course. Contributes to back-end development, using PHP and SQL.</p>
                                 </div>
                                 <div class="mt-auto ps-2">
-                                    <a href="https://github.com/Luiz-Cunha-Dev/lemonade-app" target="_blank"><button type="button" class="btn pb-0"><i class="bi bi-github fs-5"></i></button></a>
+                                    <a href="https://github.com/Luiz-Cunha-Dev/lemonade-app" target="_blank"><button
+                                            type="button" class="btn pb-0"><i
+                                                class="bi bi-github fs-5"></i></button></a>
                                 </div>
                             </div>
                         </div>
@@ -155,8 +200,12 @@
                                         fictional barbershop</p>
                                 </div>
                                 <div class="mt-auto ps-2">
-                                    <a href="https://github.com/Felipesdr/Lhama-barber-shop-front" target="_blank"><button type="button" class="btn pb-0"><i class="bi bi-github fs-5"></i></button></a>
-                                    <a href="https://lhama-barber-shop-front.vercel.app/" target="_blank"><button type="button" class="btn pb-0"><i class="bi bi-browser-chrome fs-5"></i></button></a>
+                                    <a href="https://github.com/Felipesdr/Lhama-barber-shop-front"
+                                        target="_blank"><button type="button" class="btn pb-0"><i
+                                                class="bi bi-github fs-5"></i></button></a>
+                                    <a href="https://lhama-barber-shop-front.vercel.app/" target="_blank"><button
+                                            type="button" class="btn pb-0"><i
+                                                class="bi bi-browser-chrome fs-5"></i></button></a>
                                 </div>
                             </div>
                         </div>
@@ -177,7 +226,9 @@
                                         authentication and authorization.</p>
                                 </div>
                                 <div class="mt-auto ps-2">
-                                    <a href="https://github.com/Felipesdr/Api-lhama-barber-shop" target="_blank"><button type="button" class="btn pb-0"><i class="bi bi-github fs-5"></i></button></a>
+                                    <a href="https://github.com/Felipesdr/Api-lhama-barber-shop" target="_blank"><button
+                                            type="button" class="btn pb-0"><i
+                                                class="bi bi-github fs-5"></i></button></a>
                                 </div>
                             </div>
                         </div>
@@ -193,36 +244,32 @@
                 <h3 id="item-4">Previous experience</h3>
                 <br>
                 <p class="text-justify">
-                    Throughout my career, I have served as a Team Lead Therapist in multidisciplinary teams, coordinating the implementation of individualized treatment plans for neurodivergent individuals. I have also worked as a Hospital Psychologist in outpatient clinics and wards, conducting individual and group assessments and follow-ups for patients with various conditions. Additionally, I have experience as a Therapist in Private Practice, providing individual therapy to adults, adolescents, and children with diverse needs. I have expertise in the assessment of mental disorders, proficiency in various therapeutic approaches, and the ability to work with people of different ages and backgrounds. I possess clear and effective communication skills, a proactive, ethical, and responsible attitude, and a commitment to continuous professional development. </p>
-                
+                    Throughout my career, I have served as a <span class="text-green">Team Lead Therapist</span> in multidisciplinary teams,
+                    <span class="text-green">coordinating the implementation</span> of individualized treatment plans for neurodivergent individuals. I
+                    have also worked as a Hospital Psychologist in outpatient clinics and wards, <span class="text-green">conducting individual
+                    and group assessments</span> and follow-ups for patients with various conditions. Additionally, I have
+                    experience as a Therapist in Private Practice, providing individual therapy to adults, adolescents,
+                    and children with diverse needs. I have expertise in the assessment of mental disorders, proficiency
+                    in various therapeutic approaches, and the <span class="text-green">ability to work</span> with people of different ages and
+                    backgrounds. I possess clear and <span class="text-green">effective communication</span> skills, a proactive, ethical, and
+                    responsible attitude, and a commitment to continuous professional development. </p>
+
             </div>
         </div>
     </div>
 
     <footer class="text-center text-lg-start">
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        <div class="text-center" style="background-color: rgba(0, 0, 0, 0.05);">
             © 2024 Copyright: I actually dont know what is supposed to go here.
         </div>
         <!-- Copyright -->
     </footer>
 
-
+    <script src="https://kit.fontawesome.com/b3371d481c.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 
-<script>
-
-    function activateLink(link) {
-        // Remove a classe 'active' de todos os links
-        var links = document.querySelectorAll('.section-links a');
-        links.forEach(function (item) {
-            item.classList.remove('active');
-        });
-
-        // Adiciona a classe 'active' apenas ao link clicado
-        link.classList.add('active');
-    }
-</script>
 
 
 </html>
