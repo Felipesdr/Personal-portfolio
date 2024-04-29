@@ -4,6 +4,7 @@
 
 body {
     background-image: radial-gradient(circle 815px at 23.4% -21.8%, rgba(9, 29, 85, 1) 0.2%, rgba(0, 0, 0, 1) 100.2%);
+
 }
 
 .principal {
@@ -59,6 +60,8 @@ body {
 .personal-info{
     opacity: 0;
     transition: 1s ;
+    margin-top: 100px !important;
+    
 }
 
 .show{
@@ -132,12 +135,17 @@ body {
     opacity: 0;
     transition: 1s;
 }
-.sections h4 {
 
+.sections p{
+    text-align: justify;
+}
+.sections h4 {
     font-family: "Montserrat", sans-serif;
     font-weight: 100;
     color: #0acacf;
 }
+
+
 
 .skills-section {
     border-left: 1px solid #046467;
@@ -279,6 +287,7 @@ footer {
 
     .sobre-mim {
         padding: 0 !important;
+        
     }
 
     .projetos {
@@ -287,11 +296,15 @@ footer {
     }
 
     .projetos img {
-
         height: 150px;
         padding-left: 16px;
         padding-bottom: 8px;
+    }
 
+    .project-card img {
+        height: 150px !important;
+        padding-left: 16px !important;
+        padding-bottom: 8px !important;
     }
 
     .project-card {
